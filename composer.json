@@ -1,0 +1,52 @@
+{
+    "name": "hasnayeen/blade-eva-icons",
+    "description": "A package to easily make use of Eva Icons in your Laravel Blade views.",
+    "keywords": ["Blade", "Eva icons", "Laravel"],
+    "homepage": "https://github.com/Hasnayeen/blade-eva-icons",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nehal Hasnayeen",
+            "email": "hasnayeen@pm.me",
+            "homepage": "https://hasnayeen.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "blade-ui-kit/blade-icons": "^0.4.0",
+        "illuminate/support": "^7.14"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hasnayeen\\Evaicons\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hasnayeen\\Evaicons\\BladeEvaiconsServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "format": [
+            "vendor/bin/php-cs-fixer fix"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
