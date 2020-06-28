@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use Hasnayeen\Evaicons\BladeEvaiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
+use Hasnayeen\Evaicons\BladeEvaiconsServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class CompilesIconsTest extends TestCase
