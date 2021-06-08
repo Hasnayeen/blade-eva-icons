@@ -7,7 +7,7 @@
     <img src="https://github.com/hasnayeen/blade-eva-icons/workflows/Code%20Style/badge.svg" alt="Code Style">
 </a>
 <a href="https://packagist.org/packages/hasnayeen/blade-eva-icons">
-    <img src="https://poser.pugx.org/hasnayeen/blade-eva-icons/v/stable.svg" alt="Latest Stable Version">
+    <img src="https://poser.pugx.org/hasnayeen/blade-eva-icons/v" alt="Latest Stable Version">
 </a>
 <a href="https://packagist.org/packages/hasnayeen/blade-eva-icons">
     <img src="https://poser.pugx.org/hasnayeen/blade-eva-icons/d/total.svg" alt="Total Downloads">
@@ -19,7 +19,7 @@ For a full list of available icons see [the SVG directory](resources/svg) or pre
 
 ## Requirements
 
-- PHP 7.2 or higher
+- PHP 7.3 or higher
 - Laravel 7.14 or higher
 
 ## Installation
