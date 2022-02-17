@@ -14,7 +14,7 @@ jobs:
       fail-fast: true
       matrix:
         php: [7.4, 8]
-        laravel: [^8.0, ^9.0]
+        laravel: [8, 9]
         exclude:
           - php: 7.4
             laravel: 9
@@ -39,7 +39,7 @@ jobs:
           coverage: none
 
       - name: Install dependencies
-        run: composer require "illuminate/contracts=${{ matrix.laravel }}" --prefer-dist --no-interaction --no-suggest
+        run: composer require "illuminate/contracts=^${{ matrix.laravel }}" --prefer-dist --no-interaction --no-suggest
 
       - name: Execute tests
         run: vendor/bin/phpunit --verbose
